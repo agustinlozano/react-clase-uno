@@ -26,3 +26,14 @@
 // import { ToDoList } from './components/ToDoList.js';
 
 // ReactDOM.render(<ToDoList />, document.getElementById('react-app'));
+
+import { Tarjeta } from "./components/Tarjeta.js";
+
+ReactDOM.render(
+    <Tarjeta 
+        imgUrl="https://avatars.githubusercontent.com/u/73617542?v=4"
+        nombre="Agustin Lozano"
+        titulo="Front End Software Engineer"
+    />,
+     document.getElementById('react-app')
+);
