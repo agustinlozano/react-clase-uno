@@ -1,4 +1,4 @@
-const nombre = 'Julián';
+const nombre = 'Agustin';
 
 const elemento = <div>Hola {nombre}</div>;
 
